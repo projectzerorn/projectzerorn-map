@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>projectzerorn-map.xcscheme</key>
+		<key>ProjectzerornMap.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9A5230771F1F41FC00A68326</key>
+		<key>9A5230C91F1F499B00A68326</key>
 		<dict>
 			<key>primary</key>
 			<true/>

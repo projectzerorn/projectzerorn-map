@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9A5230771F1F41FC00A68326"
-               BuildableName = "libprojectzerorn-map.a"
-               BlueprintName = "projectzerorn-map"
-               ReferencedContainer = "container:projectzerorn-map.xcodeproj">
+               BlueprintIdentifier = "9A5230C91F1F499B00A68326"
+               BuildableName = "libProjectzerornMap.a"
+               BlueprintName = "ProjectzerornMap"
+               ReferencedContainer = "container:ProjectzerornMap.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,10 +45,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9A5230771F1F41FC00A68326"
-            BuildableName = "libprojectzerorn-map.a"
-            BlueprintName = "projectzerorn-map"
-            ReferencedContainer = "container:projectzerorn-map.xcodeproj">
+            BlueprintIdentifier = "9A5230C91F1F499B00A68326"
+            BuildableName = "libProjectzerornMap.a"
+            BlueprintName = "ProjectzerornMap"
+            ReferencedContainer = "container:ProjectzerornMap.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -63,10 +63,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9A5230771F1F41FC00A68326"
-            BuildableName = "libprojectzerorn-map.a"
-            BlueprintName = "projectzerorn-map"
-            ReferencedContainer = "container:projectzerorn-map.xcodeproj">
+            BlueprintIdentifier = "9A5230C91F1F499B00A68326"
+            BuildableName = "libProjectzerornMap.a"
+            BlueprintName = "ProjectzerornMap"
+            ReferencedContainer = "container:ProjectzerornMap.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

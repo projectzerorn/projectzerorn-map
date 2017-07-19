@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A52307D1F1F41FC00A68326 /* projectzerorn_map.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A52307C1F1F41FC00A68326 /* projectzerorn_map.m */; };
-		9A52307E1F1F41FC00A68326 /* projectzerorn_map.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A52307B1F1F41FC00A68326 /* projectzerorn_map.h */; };
+		9A5230CF1F1F499B00A68326 /* ProjectzerornMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5230CE1F1F499B00A68326 /* ProjectzerornMap.m */; };
+		9A5230D01F1F499B00A68326 /* ProjectzerornMap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9A5230CD1F1F499B00A68326 /* ProjectzerornMap.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9A5230761F1F41FC00A68326 /* CopyFiles */ = {
+		9A5230C81F1F499B00A68326 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				9A52307E1F1F41FC00A68326 /* projectzerorn_map.h in CopyFiles */,
+				9A5230D01F1F499B00A68326 /* ProjectzerornMap.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9A5230781F1F41FC00A68326 /* libprojectzerorn-map.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libprojectzerorn-map.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A52307B1F1F41FC00A68326 /* projectzerorn_map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = projectzerorn_map.h; sourceTree = "<group>"; };
-		9A52307C1F1F41FC00A68326 /* projectzerorn_map.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = projectzerorn_map.m; sourceTree = "<group>"; };
+		9A5230CA1F1F499B00A68326 /* libProjectzerornMap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProjectzerornMap.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A5230CD1F1F499B00A68326 /* ProjectzerornMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProjectzerornMap.h; sourceTree = "<group>"; };
+		9A5230CE1F1F499B00A68326 /* ProjectzerornMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProjectzerornMap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9A5230751F1F41FC00A68326 /* Frameworks */ = {
+		9A5230C71F1F499B00A68326 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,96 +41,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A52306F1F1F41FC00A68326 = {
+		9A5230C11F1F499B00A68326 = {
 			isa = PBXGroup;
 			children = (
-				9A52307A1F1F41FC00A68326 /* projectzerorn-map */,
-				9A5230791F1F41FC00A68326 /* Products */,
+				9A5230CC1F1F499B00A68326 /* ProjectzerornMap */,
+				9A5230CB1F1F499B00A68326 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9A5230791F1F41FC00A68326 /* Products */ = {
+		9A5230CB1F1F499B00A68326 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9A5230781F1F41FC00A68326 /* libprojectzerorn-map.a */,
+				9A5230CA1F1F499B00A68326 /* libProjectzerornMap.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9A52307A1F1F41FC00A68326 /* projectzerorn-map */ = {
+		9A5230CC1F1F499B00A68326 /* ProjectzerornMap */ = {
 			isa = PBXGroup;
 			children = (
-				9A52307B1F1F41FC00A68326 /* projectzerorn_map.h */,
-				9A52307C1F1F41FC00A68326 /* projectzerorn_map.m */,
+				9A5230CD1F1F499B00A68326 /* ProjectzerornMap.h */,
+				9A5230CE1F1F499B00A68326 /* ProjectzerornMap.m */,
 			);
-			path = "projectzerorn-map";
+			path = ProjectzerornMap;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9A5230771F1F41FC00A68326 /* projectzerorn-map */ = {
+		9A5230C91F1F499B00A68326 /* ProjectzerornMap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9A5230811F1F41FC00A68326 /* Build configuration list for PBXNativeTarget "projectzerorn-map" */;
+			buildConfigurationList = 9A5230D31F1F499B00A68326 /* Build configuration list for PBXNativeTarget "ProjectzerornMap" */;
 			buildPhases = (
-				9A5230741F1F41FC00A68326 /* Sources */,
-				9A5230751F1F41FC00A68326 /* Frameworks */,
-				9A5230761F1F41FC00A68326 /* CopyFiles */,
+				9A5230C61F1F499B00A68326 /* Sources */,
+				9A5230C71F1F499B00A68326 /* Frameworks */,
+				9A5230C81F1F499B00A68326 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "projectzerorn-map";
-			productName = "projectzerorn-map";
-			productReference = 9A5230781F1F41FC00A68326 /* libprojectzerorn-map.a */;
+			name = ProjectzerornMap;
+			productName = ProjectzerornMap;
+			productReference = 9A5230CA1F1F499B00A68326 /* libProjectzerornMap.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9A5230701F1F41FC00A68326 /* Project object */ = {
+		9A5230C21F1F499B00A68326 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = projectzero;
 				TargetAttributes = {
-					9A5230771F1F41FC00A68326 = {
+					9A5230C91F1F499B00A68326 = {
 						CreatedOnToolsVersion = 8.3.3;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 9A5230731F1F41FC00A68326 /* Build configuration list for PBXProject "projectzerorn-map" */;
+			buildConfigurationList = 9A5230C51F1F499B00A68326 /* Build configuration list for PBXProject "ProjectzerornMap" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 9A52306F1F1F41FC00A68326;
-			productRefGroup = 9A5230791F1F41FC00A68326 /* Products */;
+			mainGroup = 9A5230C11F1F499B00A68326;
+			productRefGroup = 9A5230CB1F1F499B00A68326 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A5230771F1F41FC00A68326 /* projectzerorn-map */,
+				9A5230C91F1F499B00A68326 /* ProjectzerornMap */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9A5230741F1F41FC00A68326 /* Sources */ = {
+		9A5230C61F1F499B00A68326 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A52307D1F1F41FC00A68326 /* projectzerorn_map.m in Sources */,
+				9A5230CF1F1F499B00A68326 /* ProjectzerornMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		9A52307F1F1F41FC00A68326 /* Debug */ = {
+		9A5230D11F1F499B00A68326 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -178,7 +178,7 @@
 			};
 			name = Debug;
 		};
-		9A5230801F1F41FC00A68326 /* Release */ = {
+		9A5230D21F1F499B00A68326 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -220,7 +220,7 @@
 			};
 			name = Release;
 		};
-		9A5230821F1F41FC00A68326 /* Debug */ = {
+		9A5230D41F1F499B00A68326 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
@@ -230,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		9A5230831F1F41FC00A68326 /* Release */ = {
+		9A5230D51F1F499B00A68326 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
@@ -243,25 +243,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9A5230731F1F41FC00A68326 /* Build configuration list for PBXProject "projectzerorn-map" */ = {
+		9A5230C51F1F499B00A68326 /* Build configuration list for PBXProject "ProjectzerornMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A52307F1F1F41FC00A68326 /* Debug */,
-				9A5230801F1F41FC00A68326 /* Release */,
+				9A5230D11F1F499B00A68326 /* Debug */,
+				9A5230D21F1F499B00A68326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9A5230811F1F41FC00A68326 /* Build configuration list for PBXNativeTarget "projectzerorn-map" */ = {
+		9A5230D31F1F499B00A68326 /* Build configuration list for PBXNativeTarget "ProjectzerornMap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9A5230821F1F41FC00A68326 /* Debug */,
-				9A5230831F1F41FC00A68326 /* Release */,
+				9A5230D41F1F499B00A68326 /* Debug */,
+				9A5230D51F1F499B00A68326 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9A5230701F1F41FC00A68326 /* Project object */;
+	rootObject = 9A5230C21F1F499B00A68326 /* Project object */;
 }
