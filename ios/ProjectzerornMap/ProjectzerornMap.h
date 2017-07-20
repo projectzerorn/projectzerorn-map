@@ -1,7 +1,8 @@
 
 
 #import <Foundation/Foundation.h>
+#import <React/RCTBridgeModule.h>
 
-@interface ProjectzerornMap : NSObject
+@interface ProjectzerornMap : NSObject<RCTBridgeModule>
 
 @end
